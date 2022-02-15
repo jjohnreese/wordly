@@ -19,7 +19,7 @@ def return_right_color(letter,index,word):
 def clear_and_print_info():
     cls()
     print(colored("\n\nStarting a new game of Wordle.\n\n",'green'))
-    print("You must try to guess a 5 letter word.\n")
+    print("You have to guess a 5 letter word.\n")
     print(colored('[','cyan')+colored("GREEN",'green',attrs=['bold'])+colored(']','cyan')+" letters mean correct letter in the correct place.\n")
     print(colored('[','cyan')+colored("YELLOW",'yellow',attrs=['bold'])+colored(']','cyan')+" letters mean correct letter but in the wrong place.\n")
     print(colored('[','cyan')+colored("WHITE",'white',attrs=['bold'])+colored(']','cyan')+" letters mean the letters are not in the word.\n")
