@@ -1,5 +1,5 @@
 # wordle
-Wordle is a game written in Python3, the game based on the word game at https://www.nytimes.com/games/wordle/index.html
+Wordle is a console game written in Python3, the game based on the word game at https://www.nytimes.com/games/wordle/index.html
 
 # Packages Requierments:
   - termcolor
