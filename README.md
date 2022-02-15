@@ -1,0 +1,2 @@
+# wordly
+wordly game
