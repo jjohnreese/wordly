@@ -8,5 +8,5 @@ Wordle is a game written in Python3, the game based on the word game at https://
   
 # Screenshot:
 
-![image](https://user-images.githubusercontent.com/25135205/154126643-258a25a5-2fd2-4448-bf0b-48e8d8209272.png)
+![image](https://user-images.githubusercontent.com/25135205/154135115-1a068246-439f-483c-b08a-5c1a07f0734a.png)
 
