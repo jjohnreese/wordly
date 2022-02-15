@@ -31,29 +31,29 @@ def get_definition(word):
     try:
         meaning = ""
         for defi in json_obj['meanings']:
-            meaning += colored(f"\nPart Of Speach:  ", "yellow",
+            meaning += colored(f"\nPart of speach:  ", "yellow",
                                attrs=['bold'])+defi['partOfSpeech']+"\n"
             if(len(defi['definitions']) > 1):
-                meaning += colored(f"definitions:\n", "yellow", attrs=['bold'])
+                meaning += colored(f"Definitions:\n", "yellow", attrs=['bold'])
                 for d in defi['definitions']:
                     try:
-                        meaning += colored(f"   - definition: ", "yellow",
+                        meaning += colored(f"   - Definition: ", "yellow",
                                            attrs=['bold'])+d['definition']+"\n"
                     except:
                         pass
                     try:
-                        meaning += colored(f"   - example:    ",
+                        meaning += colored(f"   - Example:    ",
                                            "yellow", attrs=['bold'])+d['example']+"\n"
                     except:
                         pass
             elif len(defi['definitions']) == 1:
                 try:
-                    meaning += colored(f"definition:      ", "yellow",
+                    meaning += colored(f"Definition:      ", "yellow",
                                        attrs=['bold'])+defi['definitions'][0]['definition']+"\n"
                 except:
                     pass
                 try:
-                    meaning += colored(f"example:         ", "yellow",
+                    meaning += colored(f"Example:         ", "yellow",
                                        attrs=['bold'])+defi['definitions'][0]['example']+"\n"
                 except:
                     pass
