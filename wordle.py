@@ -28,7 +28,7 @@ def clear_and_print_info():
 
 
 def main():
-    allwords=requests.get("https://raw.githubusercontent.com/charlesreid1/five-letter-words/master/sgb-words.txt").text.split('\n')
+    allwords=requests.get("https://raw.githubusercontent.com/jjohnreese/wordly/main/words").text.split('\n')
     word=allwords[randrange(len(allwords))]
     guess=""
     i=1
