@@ -92,9 +92,9 @@ def main():
                 print(get_definition(word))
                 print(colored("\nYou Won! :)", "green", attrs=['bold']))
             else:
-                print(get_definition(word))
                 print("\n\nGame over you lost, the word was: " +
                       colored(word, 'red', attrs=['bold', 'underline']))
+                print(get_definition(word))
             res = input(f"\nWanna play again? (y/n): ")
             if(res == 'y'):
                 word = allwords[randrange(len(allwords))]
